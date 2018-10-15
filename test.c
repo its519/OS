@@ -1,3 +1,4 @@
+//fork with complete details
 #include<stdlib.h>
 #include<stdio.h>
 
