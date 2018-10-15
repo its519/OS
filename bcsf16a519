@@ -1,0 +1,284 @@
+    1  pwd
+    2  cd..
+    3  cd /
+    4  pwd
+    5  cd..
+    6  cd/
+    7  pwd
+    8  cd
+    9  pwd
+   10  cd~
+   11  pwd
+   12  cd..
+   13  pwwd
+   14  cd/
+   15  cd
+   16  pwd
+   17  ls
+   18  ls~
+   19  pwd
+   20  cd-
+   21  cd /home/nihal/documents
+   22  cd /home/documents
+   23  pwd
+   24  /home/nihal/Music
+   25  pwd
+   26  ls
+   27  mkdir test
+   28  pwd
+   29  cd /home/nihal/test
+   30  ls
+   31  touch t1.txt
+   32  ls
+   33  nano t1.txt
+   34  /home/nihal/test
+   35  cd /home/nihal/test
+   36  ls
+   37  cat t1.txt
+   38  cd..
+   39  cd/
+   40  cd /
+   41  cd /home/nihal
+   42  pwd
+   43  cp /home/nihal /home/nihal
+   44  pwd
+   45  ls
+   46  mv /home/nihal/test /home/nihal/test1
+   47  pwd
+   48  ls
+   49  cd /home/nihal/test
+   50  cd /home/nihal/test1
+   51  pwd
+   52  cd..
+   53  cd ../
+   54  man ls
+   55  pwd
+   56  ~/test1
+   57  cd ~/test1
+   58  ls
+   59  clear
+   60  alias cls=clear
+   61  cls
+   62  man ls -l
+   63  rm -r test1
+   64  ~/
+   65  cd ../
+   66  rmdir -r test1
+   67  pwd
+   68  ~/test1
+   69  rmdir -r /home/nihal/test1
+   70  whoami
+   71  date
+   72  cal
+   73  mkdir test2
+   74  ls
+   75  rmdir test2
+   76  ls
+   77  bc
+   78  which ls
+   79  which rmdir
+   80  ls
+   81  cd ~/test1
+   82  ls
+   83  nano t1.txt
+   84  sort t1.txt
+   85  ~
+   86  ~/
+   87  cd ~
+   88  which cd
+   89  which ls
+   90  which cd
+   91  which rmdir
+   92  ~/test1
+   93  cd ~/TEST1
+   94  cd ~/test1
+   95  ls
+   96  rm -r test1
+   97  cd ../
+   98  rm -r test1
+   99  cd Desktop\
+  100  cd Desktop
+  101  touch test
+  102  man ls
+  103  nano test
+  104  ls --help
+  105  ls -a
+  106  ls
+  107  ls -l
+  108  ls -lh
+  109  ls -S
+  110  ls -t
+  111  ls
+  112  cd Desktop
+  113  ls -l
+  114  ls -lh
+  115  ls
+  116  cd ..
+  117  ls
+  118  cat>f1.txt
+  119  cat f1.txt
+  120  nano f1.txt
+  121  cat f1.txt
+  122  gedit f1.txt
+  123  cat f1.txt
+  124  cat>f2.txt
+  125  cat f2.txt
+  126  cd Desktop
+  127  ls
+  128  mkdir a/b/c/d
+  129  mkdir -p a/b/c/d
+  130  ls
+  131  cd a
+  132  ls
+  133  mkdir -v d
+  134  mkdir d
+  135  mkdir 
+  136  mkdir x y z
+  137  mkdir cd x
+  138  cd x
+  139  mkdir -v x y z
+  140  rmdir y
+  141  cd ..
+  142  ls
+  143  rmdir y
+  144  rmdir x
+  145  rm -r x
+  146  cd ..
+  147  ls
+  148  cat test
+  149  cat -ev test
+  150  pwd
+  151  ls
+  152  touch abc.c
+  153  ls
+  154  nano abc.c
+  155  gcc abc.c -o abc
+  156  gcc abc.c -o abc.c
+  157  nano abc.c
+  158  ls
+  159  gcc abc.c
+  160  sudo apt install gcc
+  161  clear
+  162  man bg
+  163  clear
+  164  ps -all
+  165  clear
+  166  ps
+  167  ps bg
+  168  ps -all
+  169  man ps
+  170  ps --help
+  171  ps(1)
+  172  man ps -l
+  173  ;s
+  174  ls
+  175  cat f2.txt &
+  176  grep "User_Name" /etc/passwd
+  177  grep "NIHAL" /etc/passwd
+  178  exec ls
+  179  grep "NIHAL" /etc/passwd
+  180  grep -i  "NIHAL" /etc/passwd
+  181  wc -l /etc/passwd
+  182  firefox
+  183  firefox bg
+  184  clear
+  185  firefox 
+  186  jobs
+  187  firefox &
+  188  jobs
+  189  job
+  190  jobs
+  191  ps -all
+  192  job
+  193  jobs
+  194  firefox &
+  195  bg 3001
+  196  hope
+  197  top
+  198  man nice
+  199  nice -n 10 1303
+  200  nice -n 1303 10
+  201  firefox &
+  202  q
+  203  nice -n 10 3243
+  204  top
+  205  nice -n 3 top
+  206  renice top
+  207  man renice
+  208  renice [-n] -p top 
+  209  renice
+  210  man renice
+  211  sudo renice 
+  212  ls
+  213  getid abc.c
+  214  nano abc.c
+  215  gcc abc.c -o
+  216  gcc abc.c -o abc
+  217  gcc --version
+  218  sudo apt -get install gcc
+  219  gcc abc.c
+  220  whereis gcc
+  221  sudo apt-cdrom add
+  222  clear
+  223  sudo apt-get install gcc
+  224  mv.mozilla/firefox.mozilla/firefox.bak
+  225  sudo apt-get clean
+  226  sudo apt-get update
+  227  pwd
+  228  ls
+  229  gcc abc.c -o
+  230  gcc abc.c 
+  231  sudo apt install gcc 
+  232  gcc abc.c 
+  233  gcc abc.c -o
+  234  sudo apt-get install gcc
+  235  --fix-missing
+  236  gcc --fix-missing
+  237  sudo apt get gcc --fix-missing
+  238  sudo apt install gcc --fix-missing
+  239  sudo apt-get clean
+  240  sudo apt-get update
+  241  sudo apt-get remove firefox
+  242  sudo apt-get install firefox
+  243  sudo apt-get install --reinstall firefox
+  244  sudo apt install firefox
+  245  sudo apt-get upgrade
+  246  sudo apt-key adv --keyserver keyserver.ubunto.com --recv-keys A6DCF7707EBC211F
+  247  sudo apt-add-repository "deb http://tpa.launchpad.net/ubunto-mozilla-security/ppa/ubunto bionic main"
+  248  sudo apt install gcc
+  249  /etc/apt/sources.list
+  250  sudo /etc/apt/sources.list
+  251  /etc/apt/sources.list
+  252  ls-l /etc/apt/sources.list
+  253  ls -l
+  254  ls -l /etc/apt/sources.list
+  255  cat  /etc/apt/sources.list
+  256  su root
+  257  sudo passwd root
+  258  su root
+  259  firefox
+  260  sudo apt install firefox
+  261  sudo apt install gnome-software
+  262  sudo apt install software-properties-gtk
+  263  sudo apt update
+  264  sudo apt-get install software-center*
+  265  sudo apt install gnome-software*
+  266  sudo apt update
+  267  sudo apt-get install gcc
+  268  sudo apt-get install build-essential
+  269  sudo apt-get autoremove
+  270  gcc abc.c 
+  271  apt install gcc
+  272  su root
+  273  gcc abc.c
+  274  sudo apt install gcc
+  275  sudo nano /etc/resolve.conf
+  276  sudo apt install gcc
+  277  sudo sed -i '/cdrom/d' /etc/apt/sources.list
+  278* grep -v '#' /etc/apt/sources.list~
+  279  sudo apt install gcc
+  280  apt install gcc
+  281  y
+  282  history
+  283  clear
+  284  history 1>BCSF16A519
